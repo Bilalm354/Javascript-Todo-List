@@ -118,9 +118,19 @@ li button {
     color: gray;
 }
 
+a{
+    text-decoration: none;
+    color: gray;
+}
+
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
     body {
         font-size: 44px;
     }
+    
+    #userInput {
+        width: 80%;
+    }
+    
 }
